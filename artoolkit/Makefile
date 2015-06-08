@@ -1,7 +1,7 @@
 all: installed
 
 TARBALL     = build/ARToolKit-SVN-r311.tar.gz
-TARBALL_URL = https://code.ros.org/svn/release/download/thirdparty/ARToolKit-SVN-r311.tar.gz
+TARBALL_URL = https://sourceforge.net/p/ros-dry-releases/code/HEAD/tree/download/thirdparty/ARToolKit-SVN-r311.tar.gz?format=raw
 UNPACK_CMD  = tar zxf
 SOURCE_DIR  = build/artoolkit
 TARBALL_PATCH = patch_auto_config patch_v4l
